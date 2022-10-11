@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway&display=swap');
+
+:root{
+    --azul: #33A8DB;
+     --gradiente: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    --fundo: rgba(0, 0, 0, 1);
+    --cinza: rgba(37, 37, 37, 1);
+}
+body{
+    margin: 0;
+    background-color: var(--fundo);
+    font-family: Raleway;
+}
+h1{
+    font-size: 2.5rem;
+    color: var(--azul);
+}
+h2{
+    font-size: 2rem;
+    color: var(--azul);
+}
+.btn_cadastro{
+  color: var(--azul);
+  padding: 19px 91px 19px 91px;
+  border: solid 2px var(--azul);
+  font-size: 1.18rem;
+  background-color: transparent;
+}
+.btn_cadastro:hover{
+    background-color: rgba(51, 168, 219, 0.06);
+}
+.text_default, a{
+    font-size: 1rem;
+    color: #FFF;
+    font-weight: 400px;
+    word-wrap: break-word;
+}
+a{
+    text-decoration: none;
+    color: var(--azul);
+}
+.alinha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Trilha de CSS Da DIO*/
+.header{
+    border-bottom: solid 1px var(--azul);
+    padding: 83px 465px;
+    background-image: url(backgroundHeader.png);
+    background-color: rgba(51, 168, 219, 0.06);
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+.header p{
+    color: #FFF;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.header img{
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/*O que vou aprender?*/
+.main{
+    padding: 118px 324px;
+    text-align: center;
+}
+.main div{
+    gap: 24px;
+}
+.main .btn_modulo{
+    padding: 16px;
+    background-color: var(--cinza);
+    border: solid 1px var(--azul);
+    color: #fff;
+    border-radius: 57px;
+    width: 80%;
+}
+
+/*Banner*/
+.banner{
+    height: 363px;
+    background-image: url(transformandoMundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.banner div{
+    font-size: 40px;
+}
+.banner div span{
+    color: #FFF;
+    font-family: Raleway;
+    text-shadow: 3px 2px 0px #33A8DB;
+}
+
+/*Novos desafios*/
+.novos_desafios{
+    padding: 118px 324px;
+    text-align: center;
+}
+
+/*footer*/
+.footer{
+    border-top: solid 1px var(--azul);
+    padding: 39px;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+}
